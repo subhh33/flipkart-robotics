@@ -1,0 +1,18 @@
+Data filter=lfs diff=lfs merge=lfs -text
+Data/rice filter=lfs diff=lfs merge=lfs -text
+Data/Soaps[[:space:]]And[[:space:]]Sampoos filter=lfs diff=lfs merge=lfs -text
+Data/skincare filter=lfs diff=lfs merge=lfs -text
+Data/salt filter=lfs diff=lfs merge=lfs -text
+Data/pulses filter=lfs diff=lfs merge=lfs -text
+Data/perfumess filter=lfs diff=lfs merge=lfs -text
+Data/haircare filter=lfs diff=lfs merge=lfs -text
+Data/Drinks filter=lfs diff=lfs merge=lfs -text
+Data/Bodycare filter=lfs diff=lfs merge=lfs -text
+Data/atta&flours filter=lfs diff=lfs merge=lfs -text
+Data/Tea filter=lfs diff=lfs merge=lfs -text
+Data/Biscuits filter=lfs diff=lfs merge=lfs -text
+Data/dryfruits filter=lfs diff=lfs merge=lfs -text
+/Data/atta&flours filter=lfs diff=lfs merge=lfs -text
+Freshness/ filter=lfs diff=lfs merge=lfs -text
+
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="static\css\style.css" />
+    <title>Smart Vision Technology</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="#" class="sign-in-form">
+            <h2 class="title" style="font-size: 32px; font-weight: bold; color: #333; text-align: center; margin-bottom: 20px;">
+              Smart Vision Technology
+          </h2>
+          <h3 style="font-size: 24px; font-weight: normal; color: #555; text-align: center; margin-bottom: 15px;">
+              Revolutionizing the way businesses maintain quality standards at scale
+          </h3>
+          
+          </form>
+          <form action="#" class="sign-up-form">
+            <h2 class="title">{{ object_count }} Objects Detected</h2>
+            <ul>
+              {% for obj in object_details %}
+                <li>
+                  <ul>
+                    {% for key, value in obj.items() %}
+                      <li>{{ key }}: {{ value }}</li>
+                    {% endfor %}
+                  </ul>
+                </li>
+              {% endfor %}
+            </ul>
+          </form>
+      </div> 
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>Ready To See With My eyes</h3>
+            <p>
+               Click Below To Start Capturing
+            </p>
+            <button class="btn transparent" id="sign-up-btn">
+              Start
+            </button>
+          </div>
+          <img src="img\output-onlinepngtools.png" class="image" alt="" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h2 class="title" style="font-size: 32px; font-weight: bold; color: #ffffff; text-align: center; margin-bottom: 20px;">
+              Smart Vision Technology
+          </h2>
+          <h3 style="font-size: 24px; font-weight: normal; color: #ffffff; text-align: center; margin-bottom: 15px;">
+            Optimizing operations with intelligent, camera-based monitoring systems 
+          </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="static\js\app.js"></script>
+  </body>
+</html>
